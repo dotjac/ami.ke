@@ -1,53 +1,220 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
     background-color: #1f2235;
-    color: white;
-
-}
-
-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #23263a;
-}
-
-h1 {
-    color: antiquewhite;
-}
-
-#GMC {
-    color: aqua;
-    font-size: 40px;
-    background-color: azure;
-}
-
-.card {
-    width: 200px;
-    height: 300px;
-    background-color: aqua;
-    margin: auto;
-    border-radius: 16px;
-    align-items: center;
-}
-
-section hor {
     
 }
 
-.card .ccc{
-    width: 200px;
-    height: 300px;
-    background-color: red;
-    margin: auto;
-    border-radius: 16px;
+.horizontal {
+    display: flex;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: space-between
 }
 
-header {
+
+.nav-item {
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: 20px; 
+    color: white;
+}
+
+#home {
+    display: flex;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+#text {
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#imagecontent {
+    align-items: end;
+    
+}
+
+#services {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #23263a;
+}
+
+#services h4{
+    color: red;
+    padding-top: 50px;
+}
+#services h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+#services p{
+    padding-bottom: 50px;
+}
+
+#card {
+    display: flex;
+    color: #;
+    padding-top: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+#card2 {
+    display: flex;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.top a{
+    color: green;   
+    text-align: right;
+}
+
+#card h4 {
+    background-color: green;
+    
+}
+
+#about {
     background-color: #1f2235;
+    padding-bottom: 50px;
+    color: white;
+}
+.about {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 100px;
+}
+.about2 {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+
+}
+.about2 img {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+#container {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+#container2 {
+    padding-left: 150px;
+}
+#container1 h4 {
+    color: red;
+}
+#container2 h4 {
+    color: red;
+}
+.container1 {
+    padding-bottom: 30px;
+}
+
+#skills {
+    background-color: #23263a;
+    display: flex;padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    color: white;
+
+}
+#skills h3 {
+    color: red;
+    padding-bottom: 40px;
+}
+#skills h1 {
+    padding-bottom: 40px;
+    padding-right: 100px;
+    font-size: 70px;
+}
+#skills p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.skills {
+    padding-left: 75px;
+    padding-right: 700px;
+}
+
+#portfolio {
+    background-color: #1f2235;
+    color: white;
+    padding-top: 100px;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 70px; 
+
+}
+.horizontal1 {
+    display: flex;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    justify-content: space-between
+}
+
+
+#textconcon {
+    padding-left: 150px;
+    padding-top: 100px;
+}
 
 footer {
-    background-color: #23263a;
-    align-items: center;
-    display: flex;
+    background-color: #1f2235;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    font-size: 20px;
+
+}
+footer p {
+    font-size: 25px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer {
+    padding-bottom: 100px;
+}
+footer p1{
+    font-size: 20px;
+}
+.grid {
+    display: grid;
 }

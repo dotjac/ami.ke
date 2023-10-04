@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--font awesome-->
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ami.ke</title>
     
@@ -18,13 +16,13 @@
         </div>
         <nav>
             <ul class="horizontal">
-                <li class="nav.item"><a href="#home">Home</a></li>
-                <li class="nav.item"><a href="#Services">Services</a></li>
-                <li class="nav.item"><a href="#About">About</a></li>
-                <li class="nav.item"><a href="#Skills">Skills</a></li>
-                <li class="nav.item"><a href="#Portfolio">Portfolio</a></li>
-                <li class="nav.item"><a href="#Blog">Blog</a></li>
-                <li class="nav.item"><a href="#Contact">Contact</a></li>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#Services">Services</a></li>
+                <li class="nav-item"><a href="#About">About</a></li>
+                <li class="nav-item"><a href="#Skills">Skills</a></li>
+                <li class="nav-item"><a href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#Blog">Blog</a></li>
+                <li class="nav-item"><a href="#Contact">Contact</a></li>
             </ul>
           
           </nav>
@@ -37,8 +35,8 @@
                 <div id="socialicons">
                 </div>
                 <div id="text">
-                    <h1>I am Jonathan Doe</h1>
-                    <p>I'm Jonathan, professonal web developer with long time experience in this field</p>
+                    <h1 class="title">I am Jonathan Doe</h1>
+                    <p class="Jon">I'm Jonathan, professonal web developer with long time experience in this field</p>
                 </div>
                 <div  id="actionBtn">
                     <button>My Portfolio</button>
@@ -55,15 +53,15 @@
             </div>
             <div id="Contentbtn"></div>
         </section>
-        <section>
-            <div>
+        <section id="services">
+            <div class="services"> 
                 <h4>SERVICES</h4>
                 <H1>mY Services</H1>
                 <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, repudiandae.</P>
                 <br>
             </div>
             <div>
-                <div>
+                <div id="card">
                     <div class="card">
                         <h2>Web Development</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, unde?</p>
@@ -76,7 +74,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, unde?</p>
                     </div>
                 </div>
-                <div>
+                <div id="card2">
                     <div class="card">
                         <h2>Web Development</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, unde?</p>
@@ -92,47 +90,96 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section id="about">
+            <div class="about">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dignissimos?</p>
             </div>
-            <div>
-                <div id="imageContent">
+            <div class="about2">
+                <div id="imageContent1">
                     <img src="./images/man 2.png" alt="man 2.png">
                 </div>
-                <div>
+                <div id="textconcon">
                     <div id="textcontent">
                         <h2>Hi There</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, quo.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Doloribus, accusamus culpa quidem odit magnam omnis sint in commodi modi mollitia.</p>
+                            <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, expedita?</p>
                     </div>
-                    <div></div>
+                    <div id="container">
+                        <div id="container1">
+                            <div class="container1">
+                                <h4><b>Name:</b></h4>
+                                <p>Jonathan Joe</p>
+                            </div>
+                            <div class="container2">
+                                <h4><b>Email:</b></h4>
+                                <p>example@domain.com</p>
+                            </div>
+                        </div>
+                        <div id="container2">
+                            <div class="container1">
+                                <h4><b>Phone:</b></h4>
+                                <p>+1 023 454 345</p>
+                            </div>
+                            <div class="container">
+                                <h4><b>Linkedin</b></h4>
+                                <p>Jonathan_123</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section id="skills">
             <div id="textcontent">
                 <h3>I'M EXPERT ON</h3>
                 <h1>Let's Work Together</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, amet?</p>
-                <div id="actionbtn">
+                <p>Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non. Nulla sollicitudin turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                <d iv id="actionbtn">
                     <button>Hire Me Now</button>
                 </div>
             </div>
-            <div>
-                <li>Node JS</li>
-                <li>Python</li>
-                <li>Laravel</li>
-                <li>SEo</li>
+            <div class="skills">
+                <div>
+                    <li>Node JS</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="88"
+                        aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                            <span class="sr-only">88% Complete</span>
+                        </div>
+                </div>
+                <div>
+                    <li>Python</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="81"
+                        aria-valuemin="0" aria-valuemax="100" style="width:81%">
+                    <span class="sr-only">81% Complete</span>
+                </div>
+                <div>
+                    <li>Laravel</li>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span class="sr-only">70% Complete</span>
+                </div>
+                <div>
+                    <li>SEO</li>
+                    <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    <span class="sr-only">90% Complete</span>
+                </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section id="portfolio">
+            <div class="portfolio">
                 <h1>Portfolio Showcase</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, facere.</p>
+                <p>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</p>
             </div>
             <nav>
-                <ul class="horizontal">
+                <ul class="horizontal1">
                     <li class="nav.item"><a href="#All Works">All Works</a></li>
                     <li class="nav.item"><a href="#Art Direction">Art Direction</a></li>
                     <li class="nav.item"><a href="#Branding">Branding</a></li>
@@ -365,7 +412,7 @@
                     <botton><class="nav.item"><a href="#contact"><img src="" alt="Give us a call">Office: +01-2345-6789</a></botton>
                 
                 </div>
-                <div class="card" id="ccc">
+                <div class="card">
                     <botton><class="nav.item"><a href="#contact"><img src="" alt="Get in online">contact@example.com</a></botton>
                 
                 </div>
@@ -390,25 +437,29 @@
 
     <footer>
         <!--footer content goes here-->
-        <div>
+        <div id="footer">
             <botton><class="nav.item"><a href="#home"><img src="./images/Amike logo.png" alt="amike"></a></botton>
             <br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <br>
-            <div>
-            <botton><class="nav.item"><a href="#home"><img src="./images/facebook icon 2.png" alt="Facebook"></a></botton>
-            <botton><class="nav.item"><a href="#home"><img src="./images/icon 1.png" alt="Scip"></a></botton>
-            <botton><class="nav.item"><a href="#home"><img src="./images/instagram icon 3.png" alt="Instergram"></a></botton>
-            <botton><class="nav.item"><a href="#home"><img src="./images/icon 4.png" alt="amike"></a></botton>
+            <div class="footer">
+                <botton><class="nav.item"><a href="#home"><img src="./images/facebook icon 2.png" alt="Facebook"></a></botton>
+                <botton><class="nav.item"><a href="#home"><img src="./images/icon 1.png" alt="Scip"></a></botton>
+                <botton><class="nav.item"><a href="#home"><img src="./images/instagram icon 3.png" alt="Instergram"></a></botton>
+                <botton><class="nav.item"><a href="#home"><img src="./images/icon 4.png" alt="amike"></a></botton>
             </div>
         </div>
         <br>
 
         <div>
-            <p>Copyright © 2023 <img src="./images/Amike logo.png" alt="amike">All Rights Reserved by ThemeBing.</p>
+            <p1>Copyright © 2023 <img src="./images/Amike logo.png" alt="amike" width="40" height="20">All Rights Reserved by ThemeBing.</p>
         </div>
     </footer>
     
-    
+    <div id="botton"></div>
+    <div class="top">
+        <a href="#top">Goto Top</a>
+    </div>
+  
 </body>
 </html>
