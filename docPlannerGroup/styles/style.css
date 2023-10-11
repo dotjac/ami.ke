@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h2{
+    color: #00c3a5;
+}
+
+#healthcare {
+    text-align: center;
+}
+
+.topnav {
+    text-align:right
+}
+
+.topnav .active{
+    color: #00c3a5;
+}
+
+.patient {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 40px;
+    font-size: medium;
+}
+
+.healthcare h3 {
+    color: #00c3a5;
+}
+
+#card {
+    display: flex;
+    padding-left: 350px; 
+    column-gap: 20px;
+    color: white;
+    height: 350px;
+    font-size: 20px;
+}
+
+.card-body h5 {
+    font-size: 30px
+}
+
+.card1 {
+    background-color: #00ccb1;
+    padding-left: 30px;
+    padding-right: 40px;
+
+}
+
+.card2 {
+    background-color: #3d83df;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.card3 {
+    background-color: #182734;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.partners {
+    display: flex;
+}
+
+.part {
+    display: flex;
+    width: 5px;
+}
+
+.culture {
+    color: #00ccb1;
+    padding-top: 50px;
+}
+
+.platform {
+    background-color: #d0faf4;
+    display: flex;
+}
+
+.improve {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.improve h4 {
+    color: #00ccb1;
+    font-size: 40px;
+}
+
+.card5 {
+    display: flex;
+    background-color: white;
+    text-align: center;
+}
+
+.card7 {
+    padding-bottom: 30px;
+}
+
+.join {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.join h4 {
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+footer div {
+    display: flex;
+    padding-left: 370px;
+}
+
+.country {
+    color: #6e8fd0;
+}
+
+.grid-container {
+    display: grid;
+}
+
